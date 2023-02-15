@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="responsiveness.css">
+
+    <link
+      rel="icon"
+      type=""
+      href="images/Planets-space-ecosystem-O-M-letter-social-network-logo-design-by-Alex-Tass.png"
+    />
+    <link
+      rel="stylesheet"
+      href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;lang=en"
+    />
+    <link rel="stylesheet" href="portfilo.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <script src="portfilo.js"></script>
+    <script src="https://kit.fontawesome.com/9e0d2d12c0.js" crossorigin="anonymous"></script>
+
+    <title>Port filo website</title>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/prince-brush-lettering-crown-vector-design_142989-747.avif" alt="" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="header"></a>Home</li>
+            <li><a href="about"></a>About</li>
+            <li><a href="services"></a>Services</li>
+            <li><a href="portfilo"></a>Portfilo</li>
+            <li><a href="contact"></a>Contact</li>
+            <i class="fa-sharp fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars bar" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p class="fron">Frontend Developer</p>
+          <h1>
+            Hi , I am <span>Prince</span><br />
+            Bhardwaj From Faridabad
+          </h1>
+          <div class="priu">
+          <p>This is my Offical portfilo website to show all the detail <br>
+           and work for web development</p>
+          </div>
+        </div>
+
+        <div class="name">
+          <!-- <img src="images/gold-heart-isolated-on-transparent-background-vector-31292015 (1).jpg" class="gold"> -->
+        </div>
+        <!-- <div class="image">
+                <img src="images/princ.JPG" alt="" class="prince">
+            </div> -->
+      </div>
+    </div>
+
+    <!-- <==========About=============> -->
+
+    <div class="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/princ.JPG" alt="pic" class="prince" />
+          </div>
+          <div class="about-col-2">
+            <h2 class="sub-tittle">About me</h2>
+            <p class="sub-paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
+              quis odio ad nisi, mollitia cumque dolore ipsa amet impedit quas
+              numquam voluptas, totam optio aliquam ex alias dolor quos
+              temporibus. Lorem ipsum, dolor sit amet consectetur adipisicing
+              elit. Ipsa, placeat! Alias aspernatur facilis hic recusandae eum,
+              fugit quam ratione eligendi.
+            </p>
+            <div class="tab-tittle">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experince')">Experience</p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-content active-tab" id="skills">
+              <ul>
+                <li>
+                  <span class="a">UI/UX</span><br />Designing web/App Interface
+                </li>
+                <li>
+                  <span class="a">Web Development</span><br />
+                  web/App Developmet
+                </li>
+                <li>
+                  <span class="a">App Development</span><br />Building
+                  Android/iOS apps
+                </li>
+              </ul>
+            </div>
+            <div class="tab-content" id="experince">
+              <ul>
+                <li>
+                  <span class="a">2022-2023</span><br />Internship at Encrobytes
+                  Technology Private LTD.
+                </li>
+                <li>
+                  <span class="a">2022</span><br />Participate in Web
+                  development startup
+                </li>
+                <li>
+                  <span class="a">Build many Project</span><br />Build many
+                  Project using Html css bootstrap javascript jquerry
+                </li>
+              </ul>
+            </div>
+            <div class="tab-content" id="education">
+              <ul>
+                <li>
+                  <span class="a">2023</span><br />Persuing Final Year In MCA
+                  from MDU universty
+                </li>
+                <li>
+                  <span class="a">2021 </span><br />B.voc(Software development)
+                  from MDU Universty
+                </li>
+                <li>
+                  <span class="a">App Development</span><br />Building
+                  Android/iOS apps
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- =================== services=============== -->
+
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My service</h1>
+        <div class="service-list">
+          <div>
+            <i class="fa-solid fa-code fa"></i>
+            <h2>Web designing</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+              deleniti placeat minima voluptatum explicabo.
+            </p>
+            <a href="#">learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>Projects</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+              deleniti placeat minima voluptatum explicabo.
+            </p>
+            <a href="#">learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store-ios"></i>
+            <i class="fa-solid fa-rocket-launch"></i>
+            <h2>UI/UX Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+              deleniti placeat minima voluptatum explicabo.
+            </p>
+            <a href="#">learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- ==========work============= -->
+
+    <div id="portfilo">
+      <div class="container">
+  
+       <h1 class="sub-title">My work</h1>
+          <div class="work-list">
+            <div class="work">
+              <img src="images/unnamed-file.jpeg" alt="pic">
+              <div class="layer">
+                <h3>Netflix Clone </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, error.</p>
+                <a href="images/netflix.jpeg.png"><i class="fa-solid fa-link"></i></a>
+              </div>
+            </div>
+            <div class="work">
+              <img src="images/unnamed-file.jpeg" alt="pic">
+              <div class="layer">
+                <h3> Ecommerce web App</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, error.</p>
+                <a href="images/yummy.jpeg.png"><i class="fa-solid fa-link"></i></a>
+              </div>
+            </div>
+            <div class="work">
+              <img src="images/unnamed-file.jpeg" alt="pic">
+              <div class="layer">
+                <h3>Online shopping App</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, error.</p>
+                <a href="images/flipkart.jpeg.png"><i class="fa-solid fa-link"></i></a>
+              </div>
+            </div>
+          </div>
+        <a href="#" class="btn">see more</a>
+      </div>
+    </div>
+
+  <!-- ====contact=== -->
+
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+       
+            <h1 class="sub-titlee">contact me</h1>
+            <p><i class="fa-sharp fa-solid fa-paper-plane"></i>princebhardwaj0022@gmail.com</p>
+            <p><i class="fa-solid fa-phone-volume"></i>+91 9896141799</p>
+            <div class="social-icons">
+              <a href="https://facebook.com/"><i class="fa-brands fa-facebook fb"></i></a>
+              <a href="https://twitter.com"><i class="fa-brands fa-twitter-square"></i></a>
+              <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://linkdin.com"><i class="fa-brands fa-linkdin"></i></a>
+              <a href="https://whatsapp.com"><i class="fa-brands fa-whatsapp"></i></a>
+              <a href="https://linkdin.com"><i class="fa-brands fa-google"></i></a>
+            </div>
+            <a href="images/prince.pdf.pdf" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+          <form>
+
+            
+            <input type="text" name="Name" class="text" placeholder="Enter Your Name" spellcheck="true" required>
+           <input type="email" name="Email" class="text" placeholder="Enter Your Email" spellcheck="true" required >
+           <textarea name="message" id="" cols="30" rows="6" placeholder="Your Message"></textarea>
+           <button type="submit" class="btn btn2">Submit</button>
+          </form>
+          
+        </div>
+      
+        </div>
+    </div>
+  </div>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+  ></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <script>
+    var sidemeu = document.getElementById("sidemenu");
+function openmenu(){
+    sidemeu.style.right="0"
+}
+function closemenu(){
+    sidemeu.style.right="-200%"
+}
+  </script>
+</html>
